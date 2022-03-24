@@ -3,33 +3,67 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>臺中觀光景點資訊網</title>
 	
 	<style type="text/css">
 		td{ text-align: center;}
 		img{ border-radius: 100%; width: 300px;height: 300px;}
 		#head_img{ border-radius: 20px; width: 1024px;height: 300px;}
-		.main_table{ width:100%; }
+		.main_table{ width:90%; margin:0px auto; }
+
+		body{margin:0;}
+
+	.navbar {
+  		overflow: hidden;
+  		background-color: #333;
+  		position: fixed;
+  		top: 0;
+  		width: 100%;
+		}
+
+	.navbar a {
+ 		 float: left;
+  		display: block;
+  		color: #f2f2f2;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		font-size: 17px;
+		}
+
+	.navbar a:hover {
+  		background: #ddd;
+  		color: black;
+		}
+		
 	</style>
 
 </head>
 <body>
 
-	<table class="main_table" witdth="100%">
+	<div class="navbar">
+  	<a href="#000">回首頁</a>
+ 	<a href="#001">臺中國家歌劇院</a>
+  	<a href="#002">臺中州廳</a>
+  	<a href="#003">審計新村</a>
+	</div>
+	
+
+	<table class="main_table">
 		<tr>
 			<td colspan="2">
 				<img id ="head_img" width="1024px" height="300px" src="00taichung.jpeg">
 				</td>
 	</tr>
 	<tr>
-		<td colspan="2">
+		<td id="000" colspan="2">
 			<h1>臺中市</h1> 
 			<font size="3">臺中市，通稱臺中，簡稱「中」，為中華民國直轄市，臺灣六都之一，也是中臺灣唯一的直轄市。周邊與臺灣省的六個縣相鄰，北鄰苗栗縣、新竹縣，南鄰彰化縣、南投縣，東隔中央山脈與花蓮縣相鄰，東北以中央山脈和雪山山脈毗鄰宜蘭縣，西臨臺灣海峽。</font>
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<img src="01.jpeg">
+			<img id="001" src="01.jpeg">
 		</td>
 		<td>
 			<p>
@@ -50,20 +84,28 @@
 			</P>
 		</td>
 		<td>
-			<img src="02.jpeg">
+			<img id="002" src="02.jpeg">
 		</td>
 	</tr>
 	<tr>
 		<td>
-		<img src="03.jpeg"></td>
+		<img id="003" src="03.jpeg"></td>
 		<td>
 			<p>
-			<h3>審計新村</h3>
+			<h2>審計新村</h2>
 			</p>
 			<p>
 			審計新村原為臺灣省政府審計處（今審計部教育農林審計處）與臺灣省政府新聞處（今行政院新聞傳播處地方新聞科）的宿舍，1969年興建完成，是中部繼光復新村、中興新村、長安新村之後的第四批台灣省政府宿舍群。
 			1998年精省後，審計新村成為閒置空間，逐漸荒廢。審計新村與一般眷村或政府宿舍不同之處在於二層樓的矮建築，牆身的顏色是溫柔的鵝黃色，內部格局小而精緻，為戰後相當有特色的公共建設。近年配合臺中市政府勞工局「摘星青年、築夢台中」創業基地進駐計畫，重新規劃轉型成為創業基地與文創園區。</p>
 			</td>
+	</tr>
+	<tr>
+		<td>
+			<br>
+			<br>
+			<br>
+			<br>
+		</td>
 	</tr>
 	<tr>
 		<td align="center" style="background-color:black; color:white" colspan="2">
